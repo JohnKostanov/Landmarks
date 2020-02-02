@@ -79,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				52915BF423E755FB007B5399 /* Landmark.swift */,
+				52915BF623E759A8007B5399 /* Data.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -133,7 +134,6 @@
 			children = (
 				52915BF323E755D7007B5399 /* Models */,
 				52A0131E23E5745400082597 /* AppDelegate.swift */,
-				52915BF623E759A8007B5399 /* Data.swift */,
 				52A0132023E5745400082597 /* SceneDelegate.swift */,
 				52A0132223E5745500082597 /* LandmarkDetail.swift */,
 				52915C1523E76411007B5399 /* LandmarkRow.swift */,
