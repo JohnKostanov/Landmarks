@@ -1,10 +1,9 @@
-//
-//  Data.swift
-//  Landmarks
-//
-//  Created by  Джон Костанов on 02/02/2020.
-//  Copyright © 2020 John Kostanov. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+Helpers for loading images and data.
+*/
 
 import UIKit
 import SwiftUI
