@@ -8,9 +8,9 @@
 
 import SwiftUI
 
-struct BadgeSimbol: View {
+struct BadgeSymbol: View {
     static let symbolColor = Color(red: 79.0 / 255, green: 79.0 / 255, blue: 191.0 / 255)
-    
+
     var body: some View {
         GeometryReader { geometry in
             Path { path in
@@ -43,8 +43,8 @@ struct BadgeSimbol: View {
     }
 }
 
-struct BadgeSimbol_Previews: PreviewProvider {
+struct BadgeSymbol_Previews: PreviewProvider {
     static var previews: some View {
-        BadgeSimbol()
+        BadgeSymbol()
     }
 }
