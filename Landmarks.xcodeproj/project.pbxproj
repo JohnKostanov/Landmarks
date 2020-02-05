@@ -33,6 +33,8 @@
 		52A0132B23E5745900082597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A0132923E5745900082597 /* LaunchScreen.storyboard */; };
 		52A0133323E5992B00082597 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0133223E5992B00082597 /* CircleImage.swift */; };
 		52A0133523E59FBF00082597 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0133423E59FBF00082597 /* MapView.swift */; };
+		52E0B9B323EB467A00079F85 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E0B9B223EB467A00079F85 /* Badge.swift */; };
+		52E0B9B523EB472800079F85 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E0B9B423EB472800079F85 /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		52A0132C23E5745900082597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52A0133223E5992B00082597 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		52A0133423E59FBF00082597 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		52E0B9B223EB467A00079F85 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		52E0B9B423EB472800079F85 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 				52A0132223E5745500082597 /* LandmarkDetail.swift */,
 				52915C1523E76411007B5399 /* LandmarkRow.swift */,
 				52915C1923E76F12007B5399 /* LandmarkList.swift */,
+				52E0B9B223EB467A00079F85 /* Badge.swift */,
+				52E0B9B423EB472800079F85 /* HexagonParameters.swift */,
 				52915BF823E759CC007B5399 /* Supporting files */,
 				52915BF923E75A25007B5399 /* Resources */,
 				52A0132423E5745900082597 /* Assets.xcassets */,
@@ -243,8 +249,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E0B9B523EB472800079F85 /* HexagonParameters.swift in Sources */,
 				52A0131F23E5745400082597 /* AppDelegate.swift in Sources */,
 				52A0133323E5992B00082597 /* CircleImage.swift in Sources */,
+				52E0B9B323EB467A00079F85 /* Badge.swift in Sources */,
 				52A0133523E59FBF00082597 /* MapView.swift in Sources */,
 				52915C1A23E76F12007B5399 /* LandmarkList.swift in Sources */,
 				52A0132123E5745400082597 /* SceneDelegate.swift in Sources */,
