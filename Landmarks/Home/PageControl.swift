@@ -6,8 +6,8 @@
 //  Copyright © 2020 John Kostanov. All rights reserved.
 //
 
-import SwiftUI
 
+import SwiftUI
 import UIKit
 
 struct PageControl: UIViewRepresentable {
@@ -21,10 +21,6 @@ struct PageControl: UIViewRepresentable {
     func makeUIView(context: Context) -> UIPageControl {
         let control = UIPageControl()
         control.numberOfPages = numberOfPages
-        control.addTarget(
-            context.coordinator,
-            action: #selector(Coordinator.updateCurrentPage(sender:)),
-            for: .valueChanged)
 
         return control
     }
@@ -40,8 +36,7 @@ struct PageControl: UIViewRepresentable {
             self.control = control
         }
 
-        @objc
-        func updateCurrentPage(sender: UIPageControl) {
+        @objc func updateCurrentPage(sender: UIPageControl) {
             control.currentPage = sender.currentPage
         }
     }
