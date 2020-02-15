@@ -6,8 +6,8 @@
 //  Copyright © 2020 John Kostanov. All rights reserved.
 //
 
-import SwiftUI
 import Combine
+import SwiftUI
 
 final class UserData: ObservableObject {
     @Published var showFavoritesOnly = false
