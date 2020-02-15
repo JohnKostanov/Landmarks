@@ -2,12 +2,11 @@
 //  PageView.swift
 //  Landmarks
 //
-//  Created by  Джон Костанов on 13/02/2020.
+//  Created by  Джон Костанов on 15/02/2020.
 //  Copyright © 2020 John Kostanov. All rights reserved.
 //
 
 import SwiftUI
-
 
 struct PageView<Page: View>: View {
     var viewControllers: [UIHostingController<Page>]
@@ -24,6 +23,6 @@ struct PageView<Page: View>: View {
 struct PageView_Previews: PreviewProvider {
     static var previews: some View {
         PageView(features.map { FeatureCard(landmark: $0) })
-        .aspectRatio(3/2, contentMode: .fit)
+            .aspectRatio(3/2, contentMode: .fit)
     }
 }
